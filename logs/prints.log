@@ -1,0 +1,6 @@
+11:14:47.353 [TestNG-PoolService-3] DEBUG stepDefinations.B_ValidateFilterByPriceStep  -Exception occured:Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, findElement {value=select, using=tag name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}

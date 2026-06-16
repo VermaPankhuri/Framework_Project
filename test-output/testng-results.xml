@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T11:13:52 IST" name="Default suite" finished-at="2026-06-16T11:14:47 IST" duration-ms="54716">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@247bddad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-06-16T11:13:52 IST" name="Default test" finished-at="2026-06-16T11:14:47 IST" duration-ms="54716">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@247bddad]" started-at="2026-06-16T11:13:52 IST" name="setUpClass" finished-at="2026-06-16T11:13:53 IST" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@546ccad7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@247bddad]" started-at="2026-06-16T11:13:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:14:47 IST" duration-ms="54189" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vlaidating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@247bddad]" started-at="2026-06-16T11:13:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:14:45 IST" duration-ms="52769" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vlaidating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Task java.util.concurrent.FutureTask@68a9fa38[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7a0fee00[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000265c23c8a70@6dbae185]] rejected from java.util.concurrent.ThreadPoolExecutor@635b782b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 207]
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0e406b0938cabd8979e28dde15802694, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e406b0938cabd8979e28dde15802694]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Task java.util.concurrent.FutureTask@68a9fa38[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7a0fee00[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000265c23c8a70@6dbae185]] rejected from java.util.concurrent.ThreadPoolExecutor@635b782b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 207]
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0e406b0938cabd8979e28dde15802694, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e406b0938cabd8979e28dde15802694
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@247bddad]" started-at="2026-06-16T11:13:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:14:45 IST" duration-ms="52771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality of registered user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@247bddad]" started-at="2026-06-16T11:13:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:14:45 IST" duration-ms="52772" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating price by filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Vlaidating price by filter functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Task java.util.concurrent.FutureTask@5bc33f98[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@435c1a4d[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000265c23c8a70@3f937b2d]] rejected from java.util.concurrent.ThreadPoolExecutor@635b782b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 207]
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0e406b0938cabd8979e28dde15802694, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e406b0938cabd8979e28dde15802694]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Task java.util.concurrent.FutureTask@5bc33f98[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@435c1a4d[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x00000265c23c8a70@3f937b2d]] rejected from java.util.concurrent.ThreadPoolExecutor@635b782b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 207]
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0e406b0938cabd8979e28dde15802694, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\SACHIN~1.YAD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54960}, goog:processID: 13768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.204.159:4444/se..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e406b0938cabd8979e28dde15802694
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+at hooks.ScenarioHook.tearDown(ScenarioHook.java:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@247bddad]" started-at="2026-06-16T11:14:47 IST" name="tearDownClass" finished-at="2026-06-16T11:14:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
